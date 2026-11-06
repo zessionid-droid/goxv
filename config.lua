@@ -6,7 +6,7 @@
 
 return {
     -- ============ API ============
-    OpenRouterKey = "sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    OpenRouterKey = "sk-378a06dab5d2451da8daf6b1b70d3781",
     OpenRouterUrl = "https://openrouter.ai/api/v1/chat/completions",
     Model         = "deepseek/deepseek-v4-flash:free",
     MaxTokens     = 1500,
