@@ -3,7 +3,7 @@
 -- Paste ini ke Delta Executor. Semua module di-fetch dari GitHub.
 -- ============================================================
 
-local GITHUB_BASE = "https://raw.githubusercontent.com/Cancer666/goxv/main/"
+local GITHUB_BASE = "https://raw.githubusercontent.com/zessionid-droid/goxv/main/"
 
 local function fetch(path)
     local ok, res = pcall(function()
