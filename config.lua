@@ -7,8 +7,8 @@
 return {
     -- ============ API ============
     OpenRouterKey = "sk-378a06dab5d2451da8daf6b1b70d3781",
-    OpenRouterUrl = "https://openrouter.ai/api/v1/chat/completions",
-    Model         = "deepseek/deepseek-v4-flash:free",
+    OpenRouterUrl = "https://api.deepseek.com/v1/chat/completions",
+    Model         = "deepseek-chat",  -- atau "deepseek-flash"
     MaxTokens     = 1500,
     Temperature   = 0.7,
     SystemPrompt  = "You are a Roblox Lua scripting assistant. Answer in Indonesian. If the user asks for code, provide complete runnable Luau in a single code block. Be concise.",
